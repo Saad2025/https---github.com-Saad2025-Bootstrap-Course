@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+:root {
+    --blue: #008DCD
+}
+
+nav {
+    background-color: #017DBF !important;
+    box-shadow: #008DCD;
+}
+
+footer {
+    background-color: #017DBF !important;
+    box-shadow: #008DCD;
+}
+
+.playicons {
+    color: var(--blue);
+    font-size: 30px;
+
+}
+
+.carousel-caption {
+    bottom: 8rem !important;
+    border-radius: 20px;
+    background: rgba(1, 125, 191, 0.4);
+}
+
+.carousel-caption:hover {
+    bottom: 8rem !important;
+    border-radius: 20px;
+    background: rgba(48, 97, 232, 0.4);
+    transition: ease all 1s;
+}
+
+.carousel-caption h2 {
+    font-size: 45px;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+}
+
+.carousel-inner img {
+    /* height: calc(100vh - 76px); */
+    height: 100vh;
+}
+
+.carousel-indicators {
+    bottom: 1.25rem !important;
+
+}
+
+.carousel-indicators {
+    margin-bottom: 4rem !important;
+}
+
+.carousel-indicators button {
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50%;
+    background-color: #008DCD !important;
+
+}
+
+.carousel-indicators button:hover {
+    background-color: crimson !important;
+    transition: ease all .7s
+}
+
+
+
+/* prooducts */
+.btn-primary {
+    background-color: #008DCD !important;
+}
+
+.btn-dark:hover,
+.btn-primary:hover {
+    border: #008DCD solid .5px;
+    background-color: crimson !important;
+    border-radius: 25px;
+    transition: ease all .7s;
+}
+
+
+.rating {
+    color: #008DCD
+}
+
+
+.rating:hover {
+    color: crimson;
+    transition: ease all .4s;
+}
+
+/* productlist */
+.Products h2 {
+    border-bottom: 4px solid crimson;
+    padding-bottom: 10px;
+
+}
+
+.Contact h2 {
+    padding-bottom: 5px;
+    border-bottom: 4px solid crimson;
+}
+
+.anim {
+    margin-top: 200px;
+}
+
+.anim h2 {
+    padding-bottom: 5px;
+    border-bottom: 4px solid crimson;
+    color: #008DCD
+}
+
+.anim h4 {
+    color: crimson;
+
+}
+
+.productlist span {
+    color: #008DCD
+}
+
+.contactparagraph p {
+    width: 50%;
+    text-align: center;
+    color: #008DCD
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.send-mail {
+    background-image: url('images/1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.send-mail h2,
+.most-seller h2 {
+    color: #008DCD;
+    border-bottom: solid crimson;
+    padding-bottom: 10px;
+}
+
+.Contact h3 {
+    color: #008DCD;
+    border-bottom: solid crimson;
+    padding-bottom: 10px;
+}
+
+.most-seller img:hover {
+    transform: rotate(5deg) scale(1.1);
+    transition: ease all 1s;
+}
+
+.most-seller p {
+    color: #008DCD
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+    transition: all ease 1s;
+}
+
+.send-mail input {
+    color: #008DCD
+}
+
+footer i {
+    font-size: 35px;
+}
+
+
+.productlist img {
+    height: 300px !important;
+}
+
+.footercontactus i {
+    font-size: 20px;
+
+}
+
+.offcanvas-body img:hover {
+    transform: skew(-5deg);
+    transition: all ease 1s;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #008DCD;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: crimson;
+}
+
+
+.accordion-item .accordion-button {
+    text-align: center;
+    background: #008DCD;
+    color: white;
+
+}
+
+.accordion-button::after {
+    display: none !important;
+}
